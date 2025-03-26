@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: curewell-rest-api
+  datasource:
+    url: jdbc:mysql://localhost:3306/curewelldb?createDatabaseIfNotExist=true
+    username: root
+    password: mantu975
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
